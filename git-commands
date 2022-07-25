@@ -1,0 +1,17 @@
+$ git init
+
+$ git clone <github-url-https> --> clone all branches
+$ git clone -b master --single-branch <Git-hub-URL-https> --> to clone only one branch
+
+$ git add . --> adding changes to staging area
+$ git commit -m " commit message" --> adding to changes to local repository
+
+$ git pull 
+
+$ git branch --merged 
+$ git branch --no-merged
+
+$ git stash
+$ git stash list
+$ git stash drop
+$ git stash apply
